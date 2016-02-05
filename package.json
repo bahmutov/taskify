@@ -1,0 +1,28 @@
+{
+  "name": "@bahmutov/taskify",
+  "version": "1.0.0",
+  "description": "Convert Node style callback expecting function into a function that returns data.Task",
+  "main": "taskify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/taskify.git"
+  },
+  "keywords": [
+    "functional",
+    "task",
+    "data",
+    "taskify"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/taskify/issues"
+  },
+  "homepage": "https://github.com/bahmutov/taskify#readme",
+  "dependencies": {
+    "data.task": "3.0.0"
+  }
+}
