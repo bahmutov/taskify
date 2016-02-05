@@ -3,7 +3,7 @@
   "description": "Convert Node style callback expecting function into a function that returns data.Task",
   "main": "taskify.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha spec/spec.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -26,6 +26,7 @@
     "data.task": "3.0.0"
   },
   "devDependencies": {
+    "mocha": "2.4.5",
     "semantic-release": "^4.3.5"
   }
 }
