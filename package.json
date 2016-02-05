@@ -2,6 +2,7 @@
   "name": "@bahmutov/taskify",
   "description": "Convert Node style callback expecting function into a function that returns data.Task",
   "main": "taskify.js",
+  "version": "0.0.0-semantic-release",
   "scripts": {
     "test": "mocha spec/spec.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
