@@ -14,4 +14,22 @@ describe('taskify', function () {
     var adder = taskify(add)
     console.assert(typeof adder === 'function')
   })
+
+  it('creates a task', function () {
+    var adder = taskify(add)
+    var addTask = adder(2, 3)
+    console.assert(typeof addTask === 'object')
+  })
+
+  it('adds numbers', function (done) {
+    var adder = taskify(add)
+    var addTask = adder(2, 3)
+    addTask.fork(
+      err => console.assert(false, err),
+      sum => {
+        console.assert(sum === 5)
+        done()
+      }
+    )
+  })
 })
