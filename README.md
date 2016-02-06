@@ -43,6 +43,12 @@ addTask.fork(
 
 [Difference between a Promise and a Task](https://glebbahmutov.com/blog//difference-between-promise-and-task/)
 
+## Related
+
+* [data.task](https://www.npmjs.com/package/data.task)
+* [task-task](https://github.com/bahmutov/task-task)
+* [From callbacks to Tasks](https://glebbahmutov.com/blog/from-callbacks-to-tasks/)
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2016
